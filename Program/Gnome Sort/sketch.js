@@ -49,7 +49,6 @@ async function swap(arr, i) {
   arr[i] = arr[i - 1];
   arr[i - 1] = t;
 }
-
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
