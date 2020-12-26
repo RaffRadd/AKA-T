@@ -17,4 +17,4 @@ def gnomeSort( arr, n):
 #arr = gnomeSort(arr, n) 
 #print "out here: ", 
 #for i in arr: 
-#    print i,
+#print i,
