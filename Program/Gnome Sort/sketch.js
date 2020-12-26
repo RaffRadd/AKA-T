@@ -27,10 +27,6 @@ async function gnomeSort(arr) {
   return arr;
 }
 
-
-
-
-
 function draw() {
   background(0);
 
