@@ -1,5 +1,5 @@
 let values = [];
-let w = 6;
+let w = 10;
 let states = [];
 
 function setup() {
@@ -44,7 +44,7 @@ function draw() {
 }
 
 async function swap(arr, i) {
-  await sleep(10);
+  await sleep(0);
   var t = arr[i];
   arr[i] = arr[i - 1];
   arr[i - 1] = t;
